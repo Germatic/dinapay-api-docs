@@ -184,7 +184,7 @@ components:
           description: Transaction Identifier
         status:
           type: string
-          enum: [started, inprogress, cancelled, confirmed, refunded, expired, disputed, paid]
+          enum: [started, inprogress, cancelled, confirmed, refunded, expired, paid]
           description: Status of the payment
         amount:
           type: string
