@@ -152,7 +152,7 @@ components:
           description: URL for the customer to continue/complete the payment
         status:
           type: string
-          enum: [started, inprogress, cancelled, confirmed, expired]
+          enum: [started, InProgress, confirmed, cancelled, expired]
         expirationDate:
           type: string
           format: date-time
@@ -184,7 +184,7 @@ components:
           description: Transaction Identifier
         status:
           type: string
-          enum: [started, inprogress, cancelled, confirmed, refunded, expired, paid]
+          enum: [started, InProgress, confirmed, cancelled, expired]
           description: Status of the payment
         amount:
           type: string
